@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "Welcome to 10x Data Engineer!"
+date:   2025-06-09 10:19:48 +0200
+categories: jekyll update
+---
+```python
+print("Hello, world! 👋")
+```
+Thanks for landing here.
+
+This blog is going to document my journey on becoming 10x data engineer.
+
+A short summary on how I got where I am now.
+
+I studied economics with a desire to get into the world of big finances.
+After a finance analyst internship at Mastercard, I realised that I want to do something else.
+
+- The idea of staring at Excel sheets was not appealing. 😵‍💫
+- The urge to build something meaningful was stronger. 🛠️
+
+I started to learn Python which I used to automate reporting at work. 🐍
+I toyed around with few projects- not good engineering but I was learning.
+Automating browser game from the childhood was fun.
+
+At the time the idea of putting something bigger together was not in sight.
+
+I channeled my energy and made decisions to build experience in the world of Data- including analytics, engineering and data science. 📊
+Almost **8 years, 3 companies and 12+ larger projects later**, I felt a desire to document my journey and reflections. 
+
+I am hoping to solidify my knowledge and share my learnings. In the writing I am planning to **focus on the fundamentals**- so knowing specific tools is not the goal.
+
+tl;dr:
+finance -> data analytics -> data engineering & data science -> data engineering consulting
+
+And what exactly is my goal of becoming 10x data engineer?
+Not writing 10x lines of code or producing 10x more commits.
+
+- Product mindset: solve real challenges that matter the most
+- Problem solving: Be able to find the best solution quickly
+- Technical expertise: make the most out of the frameworks and tools
