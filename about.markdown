@@ -5,4 +5,4 @@ permalink: /about/
 ---
 
 Thanks for landing here.
-This blog is going to document my journey on becoming 10x data engineer.
+This blog is going to document my journey on becoming 10x big data engineer.
