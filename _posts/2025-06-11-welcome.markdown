@@ -46,4 +46,4 @@ Summary:
 - The most important thing so far was consistency & keeping it going.
 - Building pragmatic things that I like is what kept me going
 
-If you are not sure where to start, start with something that you like. Kaggle has plenty of datasets that you can analyse as well as the community discussions on them. Automate the boring stuff with python (a great book by Al Sweigart) The bareer to enter is so much lower with the AI tools + technologies are changing super fast. So the best time to start is now!
+**If you are not sure where to start, start with something that you like.** Kaggle has plenty of datasets that you can analyse as well as the community discussions on them. Automate the boring stuff with python (a great book by Al Sweigart) The barrier to entry is so much lower with the AI tools + technologies are changing super fast. So the best time to start is now!
