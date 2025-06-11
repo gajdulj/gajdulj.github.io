@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Welcome to 10x Data!"
-date:   2025-06-09 10:19:48 +0200
+date:   2025-06-11 09:00:00 +0200
 categories: jekyll update
 ---
 ```python
@@ -29,7 +29,7 @@ I toyed around with few projects- not good engineering but I was learning.
 
 Automating browser game from the childhood was fun.
 I've built a stock market simulation.
-Automating boring tasks at work gave me a sense of accomplishment and a higher purpose. (As cheesy as it sounds)
+Automating boring tasks at work gave me a sense of accomplishment and a higher purpose than crunching things manually.
 
 
 At the time the idea of putting something bigger than a few scripts was not in sight.
@@ -46,4 +46,4 @@ Summary:
 - The most important thing so far was consistency & keeping it going.
 - Building pragmatic things that I like is what kept me going
 
-If you are not sure where to start, start with something that you like. Kaggle has plenty of datasets that you can analyse as well as the community tips. Automate the boring stuff with python (a great book by Al Sweigart)
+If you are not sure where to start, start with something that you like. Kaggle has plenty of datasets that you can analyse as well as the community discussions on them. Automate the boring stuff with python (a great book by Al Sweigart) The bareer to enter is so much lower with the AI tools + technologies are changing super fast. So the best time to start is now!
