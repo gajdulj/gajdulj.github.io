@@ -33,3 +33,12 @@ Not writing 10x lines of code or producing 10x more commits.
 - Problem solving: Be able to find the best solution quickly
 - Technical expertise: make the most out of the frameworks and tools
 This blog is going to document my journey on reaching the goal of becoming 10x data engineer.
+
+
+Topics
+- Who is the mythical 10x data engineer?
+- 80/20 rule
+- Maintainability
+- Spark: love & hate
+- Shiny Object Syndrome
+- Fundamentals
