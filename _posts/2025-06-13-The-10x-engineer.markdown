@@ -11,7 +11,7 @@ Do they write 10x lines of code?
 Do they produce 10x more commits?
 Do they build 10x more pipelines and dashboards?
 
-When I was getting started, the image I had in mind of a 10x engineer was a person who delivers results 10x faster.
+When I was getting started, the image I had in mind of a 10x engineer was a person who delivers 10x faster or 10x more.
 
 However, having met some incredibly talented people, I realized it's not always about the speed.
 As crazy as it may sound, those who seemed to push the projects forward the most did not seem to write that much code altogether.
@@ -19,7 +19,6 @@ Instead, they were focusing on the right thing.
 
 Here are some of the qualities of the most talented people I have worked with:
 - Focused on the big picture – why are we solving the problem? 🌍
-- Maintaining focus
 - Simplifying complexity – often deleting more code than writing ✂️
 - Raising the skill level of the team (code reviews, best practices, unblocking)
 - Pragmatic & biased towards action
