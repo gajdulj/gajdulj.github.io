@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The mythical 10x data engineer 💻✨"
+title:  "The mythical 10x data engineer- do they exist?"
 date:   2025-06-13 09:00:00 +0100
 categories: jekyll update
 ---
@@ -24,16 +24,16 @@ Here are some of the qualities of the most talented people I have worked with:
 - Pragmatic & biased towards action ⚡
 - Always learning 📚
 
+I am pretty sure that these people delivered 10x average value so they do exist.
+What do I mean by "value"? 🤨 Probably a topic for another post.
+
 Counterintuitively – doing **LESS** and focusing on the right things seems to pay off more.
 This makes sense from the 80/20 rule perspective.
 
 **20% of the tasks end up generating 80% of the value.**
 
-
 You can be extremely productive, over-engineering data pipelines or building custom tools where not needed.
 But raw *productivity* ≠ *value*.
-
-What do I mean by "value"? 🤨 Probably a topic for another post.
 
 ---
 
