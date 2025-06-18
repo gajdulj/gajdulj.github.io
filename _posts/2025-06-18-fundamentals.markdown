@@ -67,6 +67,9 @@ Has a very steep learning curve, knowing the basics will make you more productiv
 1. **CI/CD & infrastructure as code** - a way to automate the deployment of your code. Be able to reliably tell that your code is working as expected before it goes live. These are **MUST HAVE** considerations for enterprise scale applications but if you are just getting started, I wouldn't worry about them at the start.
 **This is rather a controversial take, but I have seen startup projects fail because they followed enterprise best practices too early before identifying the right problems to solve.**
 
+examples:
+Terraform, Github Actions
+
 
 1. **Big Data** - Must have when data is too big to fit into memory of a single machine. Although it has a lot of use cases, a lot of companies don't really need it due to the scale of their data.
 
