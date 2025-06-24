@@ -6,9 +6,9 @@ categories: jekyll update
 ---
 
 Although data engineers mainly deal with setting up the data flow and underlying infrastructure, there are often cases where statistics comes useful:
-- Detecting data quality issues
-- Understanding distributions of data
-- Monitoring processes and triggering alerts
+- 🕵️‍♂️ Detecting data quality issues
+- 📊 Understanding distributions of data
+- 🚨 Monitoring processes and triggering alerts
 
 **Mean (average):** The most commonly used measure of average. sum(n)/count(n)
 
@@ -21,7 +21,7 @@ Although data engineers mainly deal with setting up the data flow and underlying
 
 In a perfectly normal distribution, the mean, median, and mode are the same.
 
-**Histogram**
+**Histogram 📊**
 It's good to be able to use a histogram to check the distribution of the data, detect outliers and see if the data is skewed which can help with sampling/ partitioning decisions.
 
 **Variance**: Measure of how spread out a list of numbers is. Average of **squared** differences from mean. Not so easy to interpret—"On average, the squared difference from the mean is 2.67."
@@ -38,12 +38,12 @@ It's good to be able to use a histogram to check the distribution of the data, d
 
 Useful when specifying SLAs or when we need a simplified distribution summary.
 
-**Correlation vs Causation:** Correlation measures the relationship between two variables. Causation takes place when one variable directly influences another. **Correlation does not imply causation.**
+**Correlation vs Causation 🔗🚫:** Correlation measures the relationship between two variables. Causation takes place when one variable directly influences another. **Correlation does not imply causation.**
 
 *Example:* Drowning deaths and ice cream sales are correlated. Every year, in the summer ice cream sales go up and so do drowning deaths. But this does not mean that ice cream sales cause drowning deaths.
 
 #### Correlation vs Causation
-![Correlation vs Causation](https://2164270.fs1.hubspotusercontent-na1.net/hubfs/2164270/image-png-Apr-23-2024-02-10-34-2327-PM.png)s
+![Correlation vs Causation](https://2164270.fs1.hubspotusercontent-na1.net/hubfs/2164270/image-png-Apr-23-2024-02-10-34-2327-PM.png)
 
 In the next part I will go through:
-- A/B testing
+- 🧪 A/B testing
