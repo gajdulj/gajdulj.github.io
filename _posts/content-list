@@ -1,13 +1,8 @@
 - Big data/Spark: Love & hate
 - Not everything can be distributed- Spark anti patterns
-
 - Shiny Object syndrome
 - Build to last: maintainability
-
 - pyspark bug: sorting a str
 - 80/20 rule
 - Fundamentals
 
-
-I vibe rated the data engineering tools and listed what I would focus on learning, if I started my journey again.
-"3 core tools every data engineer should master (and why)" <- check out my new blog post.
