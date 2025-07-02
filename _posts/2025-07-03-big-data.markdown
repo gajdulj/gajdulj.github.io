@@ -1,0 +1,92 @@
+---
+layout: post
+title:  "Spark: Beauty and the Beast of Big Data"
+date:   2025-07-03 09:00:00 +0100
+categories: jekyll update
+---
+
+# Introduction ✨
+
+What exactly is **Spark** and why do we need it to process big data?
+
+As of 2025, there is around **402 million terabytes** of data created every single day.
+
+
+# Big Data Contributors 🌐
+
+Big contributors are:
+
+- 🌐 **Search Data & general internet activity** (Google Search and Analytics)
+- 📱 **Social Media Data**
+- 📡 **Internet of Things (IoT) Data** (your smart fridge monitoring the milk levels)
+- 💸 **Financial Transactions** (banking, payments, crypto, etc.)
+
+
+
+Companies capitalise on this, to make better decisions, improve their products and services and ultimately to increase their revenue.
+
+In order to do this they have to think about:
+
+- 💾 **storage**
+- ⚙️ **processing**
+
+
+# Storage vs Processing 💾⚙️
+
+Storage is now cheaper than ever, thanks to the cloud. SSDs got much cheaper and cloud tenants don't need to worry about hardware maintenance and upgrades. Happy times for data hoarders.
+
+Processing got more flexible and scalable. Want a supercomputer deployed in minutes? No problem. Want it in seconds? We have serverless.
+
+
+# Scaling Approaches 📈
+
+What happens if we have more data than we can process with a single machine?
+
+We have two options:
+
+- 🦣 **Increase the size of the machine** (Vertical scaling)
+- 🀟 **Add more machines** (Horizontal scaling)
+
+Increasing the size of a machine can be expensive and limited. When this machine goes down for a second, the whole job fails.
+
+Distributed Computing/ big data frameworks like **Spark** solved this problem by allowing parallel processing with a number of machines.
+
+
+# Spark Architecture ⚡
+
+The architecture of **Spark** is:
+
+- `Driver`
+- `Executors`
+
+Together they form a cluster.
+
+`Driver` picks up tasks and shares it among `executors`.
+When all tasks are completed, the `driver` sends the results back to the user.
+
+
+# What is great about Spark 👍
+
+- 🌩️ You can use it on any of the major clouds: AWS, Azure, GCP, or Databricks- created by the original Spark developers.
+- 🆓 It's open source and free- you can download it on your laptop and start developing and testing your code.
+- 🚚 It allows you to process ~~tons~~ terabytes of data
+
+# What is not so great about Spark 👎
+
+- 🧗 Has a steep learning curve: it's not easy to get started due to configuration and dependencies.
+- 🧩 It's more complex than just SQL or pandas query- apart from business logic we need to think more about how the code is going to be executed.
+- ⏳ It has a lot of overhead: spinning up the cluster, sending data back and forth etc.
+
+
+# Analogy ✈️
+
+> Although often marked as a golden bullet, the reality is that most companies don't need Spark.
+> 
+> A great analogy is that in theory, you could **take a plane to travel within a city** as long as it has 2 airports. But that wouldn't be very efficient and you end up spending more time and energy.
+> 
+> On the other hand, if you travel across continents, you need a plane and don't mind spending a few hours in the airport and checking in your luggage.
+
+
+# For another post 📝
+
+- Common Spark issues and optimisations
