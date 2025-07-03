@@ -80,7 +80,7 @@ When all tasks are completed, the `driver` sends the results back to the user.
 
 # Analogy ✈️
 
-> Although often marked as a golden bullet, the reality is that most companies don't need Spark.
+> Although often marked as a golden bullet, the reality is that most companies don't need Spark- they don't have enough data to justify the cost and the added complexity.
 > 
 > A great analogy is that in theory, you could **take a plane to travel within a city** as long as it has 2 airports. But that wouldn't be very efficient and you end up spending more time and energy.
 > 
