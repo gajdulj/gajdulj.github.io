@@ -55,7 +55,7 @@ categories: jekyll update
 ### 3. Following Spark anti-patterns
 
 - Iterating over rows. Is a no-no as it can't be parallelised.
-- Using Python UDFs when not needed. When possible, use Spark built-in functions.
+- Using UDFs when not needed. When possible, use Spark built-in functions instead.
 - Calling `collect()` or `.toPandas()` on big datasets—defeats the purpose of using Spark.
 
 ### 4. Not using caching when you should
