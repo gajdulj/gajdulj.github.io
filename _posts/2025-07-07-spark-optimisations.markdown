@@ -18,6 +18,7 @@ categories: jekyll update
 - Filter out and process skewed values separately.
 
 ### 2. 🔄 Shuffle
+- Most expensive operation in Spark.
 - Costly data movement across the cluster
 - Happens when you call an operation that requires an exchange of data between the nodes (e.g., `groupby` and `join`).
 
@@ -25,8 +26,7 @@ categories: jekyll update
 - Filter early.
 - Use broadcast join when possible (when one of the tables is small enough, you can send it to all the nodes for instant retrieval).
 - Use partitioning to reduce the amount of data that needs to be shuffled.
-- Use window functions instead of joins when possible.
-- Use bucket join.
+- Use window functions instead of groupby & joins when possible.
 
 ### 3. 💾 Spill
 - Happens when the data doesn't fit in memory of a executor.
