@@ -18,7 +18,7 @@ categories: jekyll update
 - Filter out and process skewed values separately.
 
 ### 2. 🔄 Shuffle
-- costly data movement across the cluster
+- Costly data movement across the cluster
 - Happens when you call an operation that requires an exchange of data between the nodes (e.g., `groupby` and `join`).
 
 **Solution:**
@@ -30,38 +30,35 @@ categories: jekyll update
 
 ### 3. 💾 Spill
 - Happens when the data doesn't fit in memory of a executor.
-- memory limits → disk usage -> slow tasks
+- Memory limits → disk usage -> slow tasks
 
 **Solution:**
-- Select only the columns you need.
-- Filter early.
+- Select only the columns you need, filter early.
 - Reduce cardinality (the number of unique values in a column).
 - Increase memory per core.
 
 ---
 
-## ⚠️ Common Issues
+## ⚠️ Common Pitfalls
 
 ### 1. 🗂️ Too many/ too few partitions 
-
-- Too many small files cause issues with reading and metadata management.
+- Too many small files cause issues with file reads and metadata management, negatively impacting query performance.
 - Few large files result in poor parallelism.
-- Be cautious when designing your data ingestion process.
-- Setting the wrong partition can result in too many small files and affect query performance.
 - ✅ Use auto-compaction (e.g., when using Delta tables).
 - On Databricks, you can use the `OPTIMIZE` command to compact small files into larger files and improve query performance.
 
-### 2. Setting the Wrong Partition
+### 2. Setting the wrong partition
 - Best to partition on columns with low to moderate cardinality (dozens to thousands of values)
+- When designing the data ingestion process, work from the end goal in mind.
 - To pick the right column for partitioning, consider the consumption patterns, including most frequently used filters, joins, and aggregations.
 
-### 3. Following Spark Anti-Patterns
+### 3. Following Spark anti-patterns
 
 - Iterating over rows. Is a no-no as it can't be parallelised.
 - Using Python UDFs when not needed. When possible, use Spark built-in functions.
 - Calling `collect()` or `.toPandas()` on big datasets—defeats the purpose of using Spark.
 
-### 4. Not Using Caching When Needed
+### 4. Not using caching when you should
 
 - Due to Spark's lazy evaluation, whenever you call an action, the data is cleared from memory.
 - To avoid expensive recomputation after you call an action, cache the DataFrame if you plan to use it multiple times; otherwise, it will be recomputed every time.
