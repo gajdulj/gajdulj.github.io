@@ -61,10 +61,11 @@ We want to find how many more or less aces a player had compared to their previo
 
 ```sql
 SELECT player,
-       match_date,
-       aces,
-       LAG(aces) OVER (
-        PARTITION BY player ORDER BY match_date) AS prev_match_aces,
+    match_date,
+    aces,
+    LAG(aces) OVER (
+        PARTITION BY player ORDER BY match_date
+    ) AS prev_match_aces
 FROM player_stats;
 ```
 
@@ -75,7 +76,8 @@ FROM player_stats;
 | Alcaraz  | 2024-07-05 |  55  |       60       |
 |----------|------------|------|----------------|
 
-## 2. JOIN responsibly
+
+## 3. JOIN responsibly
 
 - Understand the data relationships before the join (one to one, one to many, many to many)
 - Don't assume keys are unique. Expect duplicates.
