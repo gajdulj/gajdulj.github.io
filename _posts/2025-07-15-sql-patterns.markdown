@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "SQL patterns that will level up your data engineering skills"
+title:  "3 SQL patterns that will level up your data engineering skills"
 date:   2025-07-15 09:00:00 +0100
 categories: jekyll update
 ---
@@ -54,9 +54,9 @@ We want to find how many more or less aces a player had compared to their previo
 
 | player   | match_date | aces |
 |----------|------------|------|
-| Alcaraz  | 2024-07-01 |  50  |
-| Alcaraz  | 2024-07-03 |  60  |
-| Alcaraz  | 2024-07-05 |  55  |
+| Alcaraz  | 2024-07-01 |  15  |
+| Alcaraz  | 2024-07-03 |  12  |
+| Alcaraz  | 2024-07-05 |  20  |
 
 
 ```sql
@@ -71,13 +71,13 @@ FROM player_stats;
 
 | player   | match_date | aces | prev_match_aces |
 |----------|------------|------|----------------|
-| Alcaraz  | 2024-07-01 |  50  |      NULL      |
-| Alcaraz  | 2024-07-03 |  60  |       50       |
-| Alcaraz  | 2024-07-05 |  55  |       60       |
+| Alcaraz  | 2024-07-01 |  15  |      NULL      |
+| Alcaraz  | 2024-07-03 |  12  |       15       |
+| Alcaraz  | 2024-07-05 |  20  |       12       |
 |----------|------------|------|----------------|
 
 
-## 3. JOIN responsibly
+## 3. Intentional JOINs
 
 - Understand the data relationships before the join (one to one, one to many, many to many)
 - Don't assume keys are unique. Expect duplicates.
@@ -85,3 +85,28 @@ FROM player_stats;
 
 watch out for:
 - Avoid unintended data duplication, always check before and after join unique counts.
+
+## ID comparison
+Quite useful pattern is the `ANTI JOIN` that allows us to find ids that don't have a match in the other table. 
+This way we can find players that didn't play any games.
+
+```sql
+SELECT *
+FROM players
+LEFT JOIN games
+ON players.player_id = games.player_id
+WHERE games.player_id IS NULL;
+```
+
+## Row comparison
+on the other hand, for quick full-row comparisons between two tables, we can use the `EXCEPT` operator. 
+(row comparison)
+This will return all rows from the first table that are not present in the second table.
+
+```sql
+SELECT *
+FROM games_1
+EXCEPT
+SELECT *
+FROM games_2;
+```
