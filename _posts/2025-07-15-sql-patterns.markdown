@@ -44,7 +44,7 @@ tips:
 
 ## 2. Use window functions
 
-- They allow us to perform calculations across rows of a table.
+- They allow us to perform calculations and lookups across rows of a table.
 - Unlike aggregate functions, they don't reduce the number of rows
 - Result in cleaner queries as we avoid excessive joins.
 - Keep the granularity of individual rows while accessing summary-level insights.
@@ -100,7 +100,6 @@ WHERE games.player_id IS NULL;
 
 ## Row comparison
 on the other hand, for quick full-row comparisons between two tables, we can use the `EXCEPT` operator. 
-(row comparison)
 This will return all rows from the first table that are not present in the second table.
 
 ```sql
