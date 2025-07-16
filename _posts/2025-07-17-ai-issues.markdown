@@ -5,6 +5,8 @@ date:   2025-07-17 09:00:00 +0100
 categories: jekyll update
 ---
 
+## Level 1: a tic-tac-toe game
+
 Ask your fav coding agent to build a tic-tac-toe for you. Easy.
 Gemini CLI, Cursor, Copilot they should all do it without much problem.
 
@@ -13,7 +15,8 @@ Groundbreaking? Not just yet.
 
 The result that we get is not much different from a google search and cloning a repository for Github. These problems have been solved multiple times and made public exactly as per the prompt.
 
-Next level from a tic tac toe is a multi player snake game.
+## Level 2: a multi player snake game
+
 How do you handle the game logic, graphics and the state?
 The requirements for the above start to become more ambiguous.
 
@@ -23,7 +26,7 @@ To produce this I had a lot of back and forward with the agent that was making a
 
 AI will accelerate our work and information retrieval but It will not replace knowing best patterns and practices in building applications in our domain. As the application grows beyond the complexity of a simple portfolio projects, relying on agents to do all the work is a recipe for disaster.
 
-Final level: high scale enterprise projects.
+## Final level: high scale enterprise projects
 
 In the real world, the requirements are not always clear. Are we gonna choose the technology X or Y? What are the tradeoffs? Does our existing tech stack/ future roadmap/ non-functional requirements dictate a specific solution? 
 Where do we source the system components from and how can they be validated?
