@@ -1,21 +1,21 @@
 ---
 layout: post
-title:  "Agentic AI-lles heel"
+title:  "Agentic Achilles heel"
 date:   2025-07-17 09:00:00 +0100
 categories: jekyll update
 ---
 
-Ask your favourite coding agent to build a tic-tac-toe for you. Easy.
+Ask your fav coding agent to build a tic-tac-toe for you. Easy.
 Gemini CLI, Cursor, Copilot they should all do it without much problem.
 
-Exciting? Definetely.
+Exciting? Definitely.
 Groundbreaking? Not just yet.
 
 The result that we get is not much different from a google search and cloning a repository for Github. These problems have been solved multiple times and made public exactly as per the prompt.
 
 Next level from a tic tac toe is a multi player snake game.
 How do you handle the game logic, graphics and the state?
-The requirements for the above start to become more ambigous.
+The requirements for the above start to become more ambiguous.
 
 Shameless plug: You can have a go at my vibe coded snake game here: https://celebrated-kheer-c87bb7.netlify.app/
 
@@ -29,5 +29,3 @@ In the real world, the requirements are not always clear. Are we gonna choose th
 Where do we source the system components from and how can they be validated?
 
 For such cases I think we are very far from delegating the work to agents!
-
-post inspired by: @Matt Martin
