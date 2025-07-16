@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Agentic AI-lles heel"
+date:   2025-07-17 09:00:00 +0100
+categories: jekyll update
+---
+
+Ask your favourite coding agent to build a tic-tac-toe for you. Easy.
+Gemini CLI, Cursor, Copilot they should all do it without much problem.
+
+Exciting? Definetely.
+Groundbreaking? Not just yet.
+
+The result that we get is not much different from a google search and cloning a repository for Github. These problems have been solved multiple times and made public exactly as per the prompt.
+
+Next level from a tic tac toe is a multi player snake game.
+How do you handle the game logic, graphics and the state?
+The requirements for the above start to become more ambigous.
+
+Shameless plug: You can have a go at my vibe coded snake game here: https://celebrated-kheer-c87bb7.netlify.app/
+
+To produce this I had a lot of back and forward with the agent that was making all kinds of mistakes, somehow going into hallucination loops or breaking existing feature when trying to implement the new ones. To say shortly, it was far from 1 shot prompt. The result of it is a bit of a mess but it kind of works. For now!
+
+AI will accelerate our work and information retrieval but It will not replace knowing best patterns and practices in building applications in our domain. As the application grows beyond the complexity of a simple portfolio projects, relying on agents to do all the work is a recipe for disaster.
+
+Final level: high scale enterprise projects.
+
+In the real world, the requirements are not always clear. Are we gonna choose the technology X or Y? What are the tradeoffs? Does our existing tech stack/ future roadmap/ non-functional requirements dictate a specific solution? 
+Where do we source the system components from and how can they be validated?
+
+For such cases I think we are very far from delegating the work to agents!
+
+post inspired by: @Matt Martin

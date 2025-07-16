@@ -15,3 +15,7 @@ Not writing 10x lines of code or producing 10x more commits.
 - Technical expertise: make the most out of the frameworks and tools
 
 You can read more here: [10x Data Engineer](https://www.10xdata.pro/jekyll/update/2025/06/13/10x-engineer.html).
+
+Contact me: [LinkedIn](https://www.linkedin.com/in/jakub-gajdul/)
+
+Jakub Gajdul
