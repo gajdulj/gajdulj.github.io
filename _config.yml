@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 10xdata.pro
+title: 10xdata
 future: true
-email: jakub.gajdul@gmail.com
+email: jakub.gajdul@10xdata.pro
 description: >- # this means to ignore newlines until "baseurl:"
   Practical tips and bite size knowledge and documenting my journey on becoming 10x big data engineer.
 baseurl: "" # the subpath of your site, e.g. /blog
