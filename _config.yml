@@ -22,7 +22,7 @@ title: 10xdata
 future: true
 email: jakub.gajdul@10xdata.pro
 description: >- # this means to ignore newlines until "baseurl:"
-  Practical tips and bite size knowledge and documenting my journey on becoming 10x big data engineer.
+  Practical tips and bite size data knowledge
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://10xdata.pro" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: jakub-gajdul
