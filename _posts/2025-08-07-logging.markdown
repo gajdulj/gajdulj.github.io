@@ -5,7 +5,7 @@ date:   2025-08-07 09:00:00 +0100
 categories: jekyll update
 ---
 
-Every program needs to be transparent on what's working and what's not.
+Every program needs to be transparent on what's hapening inside of it.
 This way we can debug it quickly, and validate that it works as expected.
 
 Logging is an action of recording the events that happen in the program.
@@ -50,7 +50,7 @@ logging.error("Error %d occurred during processing", error_code)
 - StreamHandler controls where your logs go. By default, logs go to the console, but you can send them to files or other destinations.
 
 
-## Log Levels
+## 3. Log Levels
 
 Python's logging module provides different levels of severity:
 
