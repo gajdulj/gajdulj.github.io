@@ -13,8 +13,8 @@ Logging is an action of recording the events that happen in the program.
 ## 1. Print 📝
 
 The simplest way to log is to use the `print` function.
-This is okay for initial development, but not so much for production.
-If you spam too many prints in production, let's say on a Jenkins instance, you are risking DDoSing it. Don't ask how I know this.
+This is okay for initial development, but not so much for production. It's not so easy to filter messages made by print.
+And when you spam too many prints in production, let's say on a Jenkins instance, you are risking DDoSing it. Don't ask how I know this. 😅
 
 **Print issues:**
 - No level filtering: Everything prints, even debug info in production
@@ -29,14 +29,14 @@ import logging
 
 # Configure logging
 logging.basicConfig(
-    level=logging.WARNING,  # Logs WARNING and above
+    level=logging.WARNING,
     format='%(asctime)s | %(levelname)s: %(message)s',
     handlers=[
         logging.StreamHandler() # Surfaces logs to console
     ]
 )
 
-
+# Won't show because level is set to WARNING
 logging.debug("Processing request.")
 logging.info("Application started successfully")
 
